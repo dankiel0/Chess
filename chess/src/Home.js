@@ -1,5 +1,6 @@
 import { BrowserRouter, NavLink } from "react-router-dom";
 
+import home from "./img/home.svg";
 import play from "./img/play.svg";
 import puzzle from "./img/puzzle.svg";
 import import_game from "./img/import_game.svg";
@@ -11,6 +12,10 @@ function Home() {
       <div className="navbar">
         <BrowserRouter>
           <ul>
+            <li><NavLink to="/home" className="title">
+              <img src={home} alt="home" className="icon"/>Home
+            </NavLink></li>
+
             <li><NavLink to="/play">
               <img src={play} alt="play" className="icon"/>Play
             </NavLink></li>

@@ -15,6 +15,12 @@ ul {
   list-style: none;
 }
 
+/* home */
+.title {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
 /* link */
 a {
   padding-left: 25px;
@@ -30,6 +36,7 @@ a {
   width: 175px;
 }
 
+/* change navbar button color */
 a:hover {
   background-color: #1F1E1C;
 }
