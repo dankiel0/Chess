@@ -1,9 +1,15 @@
-function Home() {
-  return (
-    <div className="home">
-      home page
-    </div>
-  );
-}
+import React from "react";
 
-export default Home;
+export default class Home extends React.Component {
+  componentDidMount() {
+    document.title = "Home | Chess";
+  }
+
+  render() {
+    return (
+      <div className="home">
+        home page
+      </div>
+    );
+  }
+}

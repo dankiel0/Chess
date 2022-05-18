@@ -1,9 +1,15 @@
-function BoardEditor() {
-  return (
-    <div className="boardeditor">
-      board editor page
-    </div>
-  );
-}
+import React from "react";
 
-export default BoardEditor;
+export default class BoardEditor extends React.Component {
+  componentDidMount() {
+    document.title = "Board Editor | Chess";
+  }
+
+  render() {
+    return (
+      <div className="boardeditor">
+        board editor page
+      </div>
+    );
+  }
+}

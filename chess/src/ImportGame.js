@@ -1,9 +1,15 @@
-function ImportGame() {
-  return (
-    <div className="importgame">
-      import game page
-    </div>
-  );
-}
+import React from "react";
 
-export default ImportGame;
+export default class ImportGame extends React.Component {
+  componentDidMount() {
+    document.title = "Import Game | Chess";
+  }
+
+  render() {
+    return (
+      <div className="importgame">
+        import game page
+      </div>
+    );
+  }
+}
