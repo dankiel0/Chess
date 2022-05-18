@@ -1,4 +1,4 @@
-/* page */
+/* PAGE */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 800;
@@ -6,6 +6,8 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* NAV BAR */
 
 /* list */
 ul {
@@ -43,6 +45,8 @@ a:hover {
 
 /* nav bar */
 .navbar {
+  float: left;
+
   width: 200px;
   height: 100vh;
 
@@ -73,4 +77,13 @@ a:hover {
 
   left: 50%;
   transform: translateX(-50%);
+}
+
+
+/* MAIN */
+
+/* the page to the right of the nav bar */
+.main {
+  height: 100vh;
+  background-color: #312E2B;
 }
