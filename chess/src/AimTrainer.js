@@ -7,7 +7,7 @@ export default class AimTrainer extends React.Component {
 
   render() {
     return (
-      <div className="aimtrainer">
+      <div className="aimtrainer main">
         aim trainer page
       </div>
     );

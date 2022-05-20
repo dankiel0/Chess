@@ -7,7 +7,7 @@ export default class ImportGame extends React.Component {
 
   render() {
     return (
-      <div className="importgame">
+      <div className="importgame main">
         import game page
       </div>
     );

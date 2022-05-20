@@ -7,7 +7,7 @@ export default class Puzzles extends React.Component {
 
   render() {
     return (
-      <div className="puzzles">
+      <div className="puzzles main">
         puzzles page
       </div>
     );

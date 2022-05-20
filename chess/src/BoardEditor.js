@@ -7,7 +7,7 @@ export default class BoardEditor extends React.Component {
 
   render() {
     return (
-      <div className="boardeditor">
+      <div className="boardeditor main">
         board editor page
       </div>
     );
